@@ -18,11 +18,11 @@ function createProjectDiv(title, description, imgURL, link){
     imageDiv.style.float = "right";
     imageDiv.style.width = "40%";
     imageDiv.style.backgroundColor = "#333333";
-    imageDiv.style.verticalAlign = "50%";
+    
     textDiv.style.float = "left";
     textDiv.style.width = "40%";
     textDiv.style.backgroundColor = "#333333";
-    textDiv.style.verticalAlign = "50%";
+    textDiv.style.verticalAlign = "100%";
     t.className = "div_text";
     d.className = "div_text";
     t.style.color = "white";
@@ -50,9 +50,8 @@ function createProjectDiv(title, description, imgURL, link){
     const i = document.createElement("img");
     
     i.style.float = "right";
-    i.style.margin = "auto";
-    i.style.height = "300px";
-    t.style.width = "100%";
+    
+    
     
     
     i.src = imgURL;
