@@ -7,8 +7,8 @@ function createProjectDiv(title, description, imgURL, link){
     cd.style.height = "300px";
     cd.style.backgroundColor = "#333333";
     cd.style.padding = "20px";
-    cd.style.marginTop = "1.5%";
-    cd.style.marginBottom = "1.5%";
+    cd.style.marginTop = "40px";
+    cd.style.marginBottom = "40px";
     container.appendChild(cd);
     const textDiv = document.createElement("div");
     const imageDiv = document.createElement("div");
@@ -17,6 +17,7 @@ function createProjectDiv(title, description, imgURL, link){
     
     imageDiv.style.float = "right";
     imageDiv.style.width = "40%";
+    imageDiv.style.height = "100%";
     imageDiv.style.backgroundColor = "#333333";
     
     textDiv.style.float = "left";
@@ -41,25 +42,25 @@ function createProjectDiv(title, description, imgURL, link){
     d.style.float = "left";
     d.style.backgroundColor = "#333333";
     d.style.marginTop = "2%"
-    d.style.fontSize = "10px";
+    d.style.fontSize = "20px";
     
-    t.style.fontSize = "30px";
+    t.style.fontSize = "40px";
     t.innerHTML = title;
-    d.style.fontSize = "15px";
+    
     d.innerHTML = description;
     const i = document.createElement("img");
     
     i.style.float = "right";
-    
+    i.style.width = "50%";
     
     
     
     i.src = imgURL;
     cd.appendChild(textDiv);
-    cd.appendChild(imageDiv);
+    
     textDiv.appendChild(t);
     textDiv.appendChild(d);
-    imageDiv.appendChild(i);
+    cd.appendChild(i);
 }
 createProjectDiv("Spherio", "This is an aiming/strategy browser game that I solo-developed from scratch over the course of about two months using the Javascript visualization library p5.js. The source code can be found <a href = 'https://github.com/L-F-N/L-F-N.github.io'>here.</a> ", "spherio_thumbnail.JPG", "spherio/spherio.html")
 createProjectDiv("2048.cpp", "This is a command prompt port of the popular mobile game 2048, which I made in C++. ", "2048.jpg", "https://github.com/evanclough/2048" )
