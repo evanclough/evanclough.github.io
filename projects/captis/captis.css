@@ -1,0 +1,27 @@
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+  #p5_loading {
+      background-color: black;
+      width:800px;
+      height:500px;
+      display: block;
+      padding: 0;
+    margin: auto;
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
