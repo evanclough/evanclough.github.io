@@ -42,7 +42,7 @@ function createProjectDiv(title, description, imgURL, link){
     d.style.float = "left";
     d.style.backgroundColor = "#333333";
     d.style.marginTop = "2%"
-    d.style.fontSize = "20px";
+    d.style.fontSize = "15px";
     
     t.style.fontSize = "40px";
     t.innerHTML = title;
