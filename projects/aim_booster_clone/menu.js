@@ -12,12 +12,11 @@ function Target(x, y, spawn_f){
   this.last_frame = spawn_f + 360;
   this.show = function(){
     fill(255, 0, 0);
+    stroke(100);
     this.r = 15 * (cos((this.last_frame - 180 - frameCount) * TWO_PI / 360) + 1);
-    strokeWeight(2);
+    strokeWeight(2 * (this.r / 30));
     ellipse(this.x, this.y, this.r * 2, this.r * 2);
     noFill();
-    strokeWeight(2);
-    stroke(100);
     ellipse(this.x, this.y, 2 * this.r / 3, 2 * this.r / 3);
     ellipse(this.x, this.y, 4 * this.r / 3, 4 * this.r / 3);
     this.mouse_is_on = distance(mouseX, mouseY, this.x, this.y) < this.r;
