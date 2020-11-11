@@ -51,12 +51,10 @@ function Menu() {
   this.levelattempted = [false, false, false, false, false, false, false, false, false, false]
   this.levelintrofade = 0
   this.tip;
-  this.show = function() {
-    
+  this.show = function() {  
     strokeWeight(5)
     fill(0)
     stroke(this.fade6)
-
     strokeWeight(5)
     stroke(this.fade5)
     noFill()
@@ -66,8 +64,6 @@ function Menu() {
     textSize(30)
     text('spherio', w / 2, h / 4)
     textSize(10)
-    //devmode
-    text("(this won't be in actual game)press number keys to set level", w / 2, 7 * h / 8)
     textSize(15)
     if (Number.isInteger(this.hardcoremode / 2)) {
       this.hardcorestatus = "off"
@@ -119,10 +115,6 @@ function Menu() {
       textAlign(CENTER)
       fill(this.fade1)
       text("current level: " + mn.level, w / 2, 5 * h / 8)
-      
-      
-
-
     }
     
     textAlign(CENTER, CENTER)
