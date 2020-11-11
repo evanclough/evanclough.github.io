@@ -265,21 +265,6 @@ function keyPressed() {
       beatloop.stop()
     }
   }
-  //dev mode
-  if (mn.menustatus === 0) {
-    for (var i = 49; i < 58; i++) {
-      if (keyCode === i) {
-        mn.level = i - 48
-        mn.devmode = true
-      }
-    }
-  }
-  if(mn.menustatus === 0){
-     if(keyCode === 48){
-        mn.level = 10 
-     }
-  }
-  //end dev mode
 }
 
 function keyReleased() {
