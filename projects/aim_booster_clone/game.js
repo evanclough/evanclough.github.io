@@ -33,6 +33,7 @@ function game(mode){
   text(minutes + ":" + seconds , w / 2, h / 2);
   textSize(30);
   text("lives: " + lives, w / 2, h / 2 + 50);
+  // spawns in new targets at random position at interval specified by frame count
   if(frameCount - last_spawn > spawn_rate) {
     last_spawn = frameCount;
     targets.push(new Target(random() * 560 + 20, random() * 360 + 20, max_r, frameCount, is_sniping, random() * TWO_PI));
