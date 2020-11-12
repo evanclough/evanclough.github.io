@@ -40,7 +40,7 @@ function game(mode){
   }
   for(let i = targets.length - 1; i >= 0; i--){
     targets[i].show();
-    // eliminates targets after certain amount of time
+    // eliminates targets after certain amount of timee
     if(targets[i].last_frame == frameCount) {
       targets.splice(i, 1);
       lives--;
