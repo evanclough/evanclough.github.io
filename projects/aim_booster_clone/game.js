@@ -26,7 +26,7 @@ function game(mode){
   on_target = false;
   textSize(50);
   fill(200);
-  time_passed += 1/60;
+  time_passed += 1/250;
   minutes = floor(time_passed / 60)
   seconds = round(time_passed) % 60 < 10 ? "0" + round(time_passed) % 60 : round(time_passed) % 60;
   strokeWeight(0);

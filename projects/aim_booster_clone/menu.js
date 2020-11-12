@@ -13,7 +13,7 @@ function Target(x, y, max_r, spawn_f, is_sniping, theta){
   this.last_frame;
   if(last_mode_played == "precision"){this.last_frame = spawn_f + 90;}
   else{this.last_frame = spawn_f + 360;}
-  this.speed = 2;
+  this.speed = 0.5;
   this.theta = theta;
   this.x_velocity = this.speed * cos(this.theta);
   this.y_velocity = this.speed * sin(this.theta);

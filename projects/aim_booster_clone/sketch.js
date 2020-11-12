@@ -39,6 +39,10 @@ function setup() {
 }
 
 function draw() {
+  
+}
+
+function g(){
   image(background_gradient, 0, 0, 600, 400);
   if(muted % 2 == 1){
     hit_noise.setVolume(0);
@@ -58,6 +62,8 @@ function draw() {
     case 6: game("precision"); break;
   }
 }
+
+setInterval(g, 1);
 
 function mouseClicked(){
   if((menu == 2 || menu == 5 || menu == 6) && in_game) {
