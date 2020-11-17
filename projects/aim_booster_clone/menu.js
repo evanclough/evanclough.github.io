@@ -29,7 +29,7 @@ function Target(x, y, max_r, spawn_f, is_sniping, theta){
     ellipse(this.x, this.y, 4 * this.r / 3, 4 * this.r / 3);
     fill(255, 150, 150);
     ellipse(this.x, this.y, 2 * this.r / 3, 2 * this.r / 3);
-    this.mouse_is_on = distance(mouseX, mouseY, this.x, this.y) < this.r;
+    this.mouse_is_on = distance(mouseX, mouseY, this.x, this.y) < this.r + 2;
     if(this.is_sniping){
       this.x_velocity = this.speed * cos(this.theta);
       this.y_velocity = this.speed * sin(this.theta);
