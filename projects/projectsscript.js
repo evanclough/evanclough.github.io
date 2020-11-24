@@ -62,10 +62,10 @@ function createProjectDiv(title, description, imgURL, link){
     textDiv.appendChild(d);
     cd.appendChild(i);
 }
-createProjectDiv("Spherio", "This is an aiming/strategy browser game that I solo-developed from scratch over the course of about two months using the Javascript visualization library p5.js. The source code can be found <a href = 'https://github.com/L-F-N/L-F-N.github.io'>here.</a> ", "spherio_thumbnail.JPG", "spherio/spherio.html")
-createProjectDiv("2048", "This is a command prompt port of the popular mobile game 2048, which I made in C++. ", "2048.jpg", "https://github.com/evanclough/2048" )
+createProjectDiv("Spherio", "This is an aiming/strategy browser game that I solo-developed from scratch over the course of about two months using the Javascript visualization library p5.js. The source code can be found <a href = 'https://github.com/L-F-N/L-F-N.github.io'>here.</a> ", "spherio_thumbnail.JPG", "spherio/spherio.html");
+createProjectDiv("2048", "This is a command prompt port of the popular mobile game 2048, which I made in C++. ", "2048.jpg", "https://github.com/evanclough/2048" );
 createProjectDiv("Captis", "This is a capture the flag game that I made using the framework I made for Spherio.", "captis_thumbnail.JPG", "captis/captis.html");
-createProjectDiv("Aim Booster Clone", "This is a clone of the game Aim Booster written in p5.js. I made it because the original developer of the game doesn't support it anymore, and since the game is dependent on the Adobe Flash plug-in, it will be unplayable in Google Chrome after this year.", "aim_booster_thumbnail.jpg", "aim_booster_clone/index.html")
-
+createProjectDiv("Aim Booster Clone", "This is a clone of the game Aim Booster written in p5.js. I made it because the original developer of the game doesn't support it anymore, and since the game is dependent on the Adobe Flash plug-in, it will be unplayable in Google Chrome after this year.", "aim_booster_thumbnail.jpg", "aim_booster_clone/index.html");
+createProjectDiv("Derivative Calculator", "I was bored in calculus class so I decided to try my hand at automating the process.", "derivative.jpg", "https://repl.it/@troyjava2004/derivative");
 
 
