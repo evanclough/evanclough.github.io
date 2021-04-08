@@ -66,6 +66,6 @@ createProjectDiv("Spherio", "This is an aiming/strategy browser game that I solo
 createProjectDiv("2048", "This is a command prompt port of the popular mobile game 2048, which I made in C++. ", "2048.jpg", "https://github.com/evanclough/2048" );
 createProjectDiv("Captis", "This is a capture the flag game that I made using the framework I made for Spherio.", "captis_thumbnail.JPG", "captis/captis.html");
 createProjectDiv("Aim Booster Clone", "This is a clone of the game Aim Booster written in p5.js. I made it because the original developer of the game doesn't support it anymore, and since the game is dependent on the Adobe Flash plug-in, it will be unplayable in Google Chrome after this year.", "aim_booster_thumbnail.jpg", "aim_booster_clone/index.html");
-createProjectDiv("Derivative Calculator", "I was bored in calculus class so I decided to try my hand at automating the process with Java. (in progress)", "derivative.jpg", "https://repl.it/@troyjava2004/derivative");
+createProjectDiv("CLI Graphing Calculator", "This file will take an equation and graph it in the terminal.", "#", "https://replit.com/@troyjava2004/big-CLI-graphing-calculator-file");
 
 
